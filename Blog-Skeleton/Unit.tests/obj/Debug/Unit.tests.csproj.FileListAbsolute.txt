@@ -1,7 +1,1 @@
-D:\QA\QA-courseWork\QAProjectRepo\Blog-Skeleton\Unit.tests\bin\Debug\Unit.tests.dll
-D:\QA\QA-courseWork\QAProjectRepo\Blog-Skeleton\Unit.tests\bin\Debug\Unit.tests.pdb
-D:\QA\QA-courseWork\QAProjectRepo\Blog-Skeleton\Unit.tests\bin\Debug\nunit.framework.dll
-D:\QA\QA-courseWork\QAProjectRepo\Blog-Skeleton\Unit.tests\bin\Debug\nunit.framework.xml
 D:\QA\QA-courseWork\QAProjectRepo\Blog-Skeleton\Unit.tests\obj\Debug\Unit.tests.csprojResolveAssemblyReference.cache
-D:\QA\QA-courseWork\QAProjectRepo\Blog-Skeleton\Unit.tests\obj\Debug\Unit.tests.dll
-D:\QA\QA-courseWork\QAProjectRepo\Blog-Skeleton\Unit.tests\obj\Debug\Unit.tests.pdb
