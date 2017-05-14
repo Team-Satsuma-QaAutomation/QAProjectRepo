@@ -1,0 +1,1 @@
+Unit.tests.RegistrationSectionTests.RegistrateWithInvaalidEmail        D:\QA\QA-courseWork\QAProjectRepo\Blog-Skeleton\Unit.tests\bin\Debug            0
