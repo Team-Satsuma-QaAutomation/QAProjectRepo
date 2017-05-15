@@ -4,3 +4,4 @@ D:\QA\QA-courseWork\QAProjectRepo\Blog-Skeleton\Integration.tests\bin\Debug\nuni
 D:\QA\QA-courseWork\QAProjectRepo\Blog-Skeleton\Integration.tests\bin\Debug\nunit.framework.xml
 D:\QA\QA-courseWork\QAProjectRepo\Blog-Skeleton\Integration.tests\obj\Debug\Integration.tests.dll
 D:\QA\QA-courseWork\QAProjectRepo\Blog-Skeleton\Integration.tests\obj\Debug\Integration.tests.pdb
+D:\QA\QA-courseWork\QAProjectRepo\Blog-Skeleton\Integration.tests\obj\Debug\Integration.tests.csprojResolveAssemblyReference.cache

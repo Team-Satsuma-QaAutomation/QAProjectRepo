@@ -1,0 +1,6 @@
+D:\QA\QA-courseWork\QAProjectRepo\Blog-Skeleton\Integration.tests\bin\x86\Debug\Integration.tests.dll
+D:\QA\QA-courseWork\QAProjectRepo\Blog-Skeleton\Integration.tests\bin\x86\Debug\Integration.tests.pdb
+D:\QA\QA-courseWork\QAProjectRepo\Blog-Skeleton\Integration.tests\bin\x86\Debug\nunit.framework.dll
+D:\QA\QA-courseWork\QAProjectRepo\Blog-Skeleton\Integration.tests\bin\x86\Debug\nunit.framework.xml
+D:\QA\QA-courseWork\QAProjectRepo\Blog-Skeleton\Integration.tests\obj\x86\Debug\Integration.tests.dll
+D:\QA\QA-courseWork\QAProjectRepo\Blog-Skeleton\Integration.tests\obj\x86\Debug\Integration.tests.pdb

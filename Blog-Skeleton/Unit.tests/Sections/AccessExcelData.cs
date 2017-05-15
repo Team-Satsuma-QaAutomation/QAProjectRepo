@@ -11,7 +11,7 @@
     {
         public static string TestDataFileConnection()
         {
-            var path = AppDomain.CurrentDomain.BaseDirectory.Replace("bin\\Debug\\", string.Empty) + ConfigurationManager.AppSettings["TestDataSheetPath"];
+            var path = AppDomain.CurrentDomain.BaseDirectory.Replace("bin\\x86\\Debug\\", string.Empty) + ConfigurationManager.AppSettings["TestDataSheetPath"];
             var filename = "input_test_data.xlsx";
             var con = string.Format(@"Provider=Microsoft.ACE.OLEDB.12.0;
 		                              Data Source = {0}; 
