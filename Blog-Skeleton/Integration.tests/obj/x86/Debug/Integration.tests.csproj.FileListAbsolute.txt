@@ -1,0 +1,16 @@
+D:\QA\QA-courseWork\QAProjectRepo\Blog-Skeleton\Integration.tests\bin\x86\Debug\Integration.tests.dll
+D:\QA\QA-courseWork\QAProjectRepo\Blog-Skeleton\Integration.tests\bin\x86\Debug\Integration.tests.pdb
+D:\QA\QA-courseWork\QAProjectRepo\Blog-Skeleton\Integration.tests\bin\x86\Debug\Castle.Core.dll
+D:\QA\QA-courseWork\QAProjectRepo\Blog-Skeleton\Integration.tests\bin\x86\Debug\nunit.framework.dll
+D:\QA\QA-courseWork\QAProjectRepo\Blog-Skeleton\Integration.tests\bin\x86\Debug\TestStack.Seleno.dll
+D:\QA\QA-courseWork\QAProjectRepo\Blog-Skeleton\Integration.tests\bin\x86\Debug\WebDriver.dll
+D:\QA\QA-courseWork\QAProjectRepo\Blog-Skeleton\Integration.tests\bin\x86\Debug\WebDriver.Support.dll
+D:\QA\QA-courseWork\QAProjectRepo\Blog-Skeleton\Integration.tests\bin\x86\Debug\Castle.Core.xml
+D:\QA\QA-courseWork\QAProjectRepo\Blog-Skeleton\Integration.tests\bin\x86\Debug\nunit.framework.xml
+D:\QA\QA-courseWork\QAProjectRepo\Blog-Skeleton\Integration.tests\bin\x86\Debug\TestStack.Seleno.pdb
+D:\QA\QA-courseWork\QAProjectRepo\Blog-Skeleton\Integration.tests\bin\x86\Debug\TestStack.Seleno.xml
+D:\QA\QA-courseWork\QAProjectRepo\Blog-Skeleton\Integration.tests\bin\x86\Debug\WebDriver.xml
+D:\QA\QA-courseWork\QAProjectRepo\Blog-Skeleton\Integration.tests\bin\x86\Debug\WebDriver.Support.xml
+D:\QA\QA-courseWork\QAProjectRepo\Blog-Skeleton\Integration.tests\obj\x86\Debug\Integration.tests.csprojResolveAssemblyReference.cache
+D:\QA\QA-courseWork\QAProjectRepo\Blog-Skeleton\Integration.tests\obj\x86\Debug\Integration.tests.dll
+D:\QA\QA-courseWork\QAProjectRepo\Blog-Skeleton\Integration.tests\obj\x86\Debug\Integration.tests.pdb
