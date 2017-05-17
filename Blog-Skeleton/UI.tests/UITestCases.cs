@@ -29,7 +29,7 @@ namespace UI.tests
         {
             if (TestContext.CurrentContext.Result.Outcome.Status == TestStatus.Failed)
             {
-                string filename = ConfigurationManager.AppSettings["Logs"] + TestContext.CurrentContext.Test.Name + ".txt";
+                string filename = AppDomain.CurrentDomain.BaseDirectory.Replace("bin\\x86\\Debug\\", string.Empty) + ConfigurationManager.AppSettings["Logs"] + TestContext.CurrentContext.Test.Name + ".txt";
                 if (File.Exists(filename))
                 {
                     File.Delete(filename);
@@ -64,7 +64,6 @@ namespace UI.tests
         // 3. Register with invalid e-mail
         [Test, Property("Priority", 1)]
         [Author("Ivaylo Arsov")]
-        [Property("ID", 3)]
         public void RegisterWithInvalidEmail()
         {
             RegistrationPage regPage = new RegistrationPage(this.driver);
@@ -79,7 +78,6 @@ namespace UI.tests
         // 4. Register without e-mail
         [Test, Property("Priority", 1)]
         [Author("Ivaylo Arsov")]
-        [Property("ID", 4)]
         public void RegisterWithoutEmail()
         {
             RegistrationPage regPage = new RegistrationPage(this.driver);
@@ -96,7 +94,6 @@ namespace UI.tests
         // 9. Register with valid credentials
         [Test, Property("Priority", 1)]
         [Author("Ivaylo Arsov")]
-        [Property("ID", 9)]
         public void RegisterWithValidCredentials()
         {
             RegistrationPage regPage = new RegistrationPage(this.driver);
