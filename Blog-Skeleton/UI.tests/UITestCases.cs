@@ -1,4 +1,10 @@
-﻿namespace UI.tests
+﻿using System.Configuration;
+using System.IO;
+using NUnit.Framework.Interfaces;
+using UI.tests.Models;
+using UI.tests.Pages.RegistrationPage;
+
+namespace UI.tests
 {
     using NUnit.Framework;
     using OpenQA.Selenium;
@@ -9,6 +15,36 @@
     [TestFixture]
     public class UITestCases
     {
+        private IWebDriver driver;
+
+        [SetUp]
+        public void Init()
+        {
+            this.driver = new ChromeDriver();
+            this.driver.Manage().Window.Maximize();
+        }
+
+        [TearDown]
+        public void CleanUp()
+        {
+            if (TestContext.CurrentContext.Result.Outcome.Status == TestStatus.Failed)
+            {
+                string filename = ConfigurationManager.AppSettings["Logs"] + TestContext.CurrentContext.Test.Name + ".txt";
+                if (File.Exists(filename))
+                {
+                    File.Delete(filename);
+                }
+                File.WriteAllText(filename, TestContext.CurrentContext.Test.FullName
+                    + "\n || " + TestContext.CurrentContext.TestDirectory
+                    + "\n || " + TestContext.CurrentContext.Result.PassCount);
+
+                var screenshot = ((ITakesScreenshot)this.driver).GetScreenshot();
+                screenshot.SaveAsFile(filename + TestContext.CurrentContext.Test.Name + ".jpg", ScreenshotImageFormat.Jpeg);
+            }
+
+            this.driver.Quit();
+        }
+
         // 1. Navigate to Blog homepage
         [Test, Property("Priority", 1)]
         [Author("Author")]
@@ -24,5 +60,52 @@
 
             Assert.AreEqual("SOFTUNI BLOG", logo.Text);
         }
-    }
+
+        // 3. Register with invalid e-mail
+        [Test, Property("Priority", 1)]
+        [Author("Ivaylo Arsov")]
+        [Property("ID", 3)]
+        public void RegisterWithInvalidEmail()
+        {
+            RegistrationPage regPage = new RegistrationPage(this.driver);
+            var user = AccessExcelData.GetTestData("RegisterWithInvalidEmail");
+
+            regPage.NavigateTo();
+            regPage.FillRegistrationFormAndClickRegisterBtn_DataDriven(user);
+
+            regPage.AssertInvalidEmailMsgExist();
+        }
+
+        // 4. Register without e-mail
+        [Test, Property("Priority", 1)]
+        [Author("Ivaylo Arsov")]
+        [Property("ID", 4)]
+        public void RegisterWithoutEmail()
+        {
+            RegistrationPage regPage = new RegistrationPage(this.driver);
+            var user = AccessExcelData.GetTestData("RegisterWithoutEmail");
+
+            regPage.NavigateTo();
+            regPage.FillRegistrationFormAndClickRegisterBtn_DataDriven(user);
+
+            regPage.AssertWithoutEmailMsgExist();
+        }
+
+
+
+        // 9. Register with valid credentials
+        [Test, Property("Priority", 1)]
+        [Author("Ivaylo Arsov")]
+        [Property("ID", 9)]
+        public void RegisterWithValidCredentials()
+        {
+            RegistrationPage regPage = new RegistrationPage(this.driver);
+            var user = AccessExcelData.GetTestData("RegisterWithValidCredentials");
+       
+            regPage.NavigateTo();
+            regPage.FillRegistrationFormAndCickRegisterBtn(user);
+
+
+        }
+    }   
 }
