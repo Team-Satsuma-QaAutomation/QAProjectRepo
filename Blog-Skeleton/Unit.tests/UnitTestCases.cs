@@ -32,7 +32,7 @@
 
         // 1. Registration without Email
         [Test, Property("Priority", 1)]
-        [Author("Author")]
+        [Author("Dimo Yanev")]
 
         public void RegistrateWithoutEmail()
         {
@@ -49,7 +49,7 @@
         }
         // 2. Registration without FullNaname
         [Test, Property("Priority", 1)]
-        [Author("Author")]
+        [Author("Dimo Yanev")]
 
         public void RegistrateWithoutFullName()
         {
@@ -66,7 +66,7 @@
         }
         // 3. Registration without Password
         [Test, Property("Priority", 1)]
-        [Author("Author")]
+        [Author("Dimo Yanev")]
 
         public void RegistrateWithoutPassword()
         {
@@ -84,7 +84,7 @@
         
         // 4. Registration with Mismatch pasword
         [Test, Property("Priority", 1)]
-        [Author("Author")]
+        [Author("Dimo Yanev")]
 
         public void RegistrateWithoutMismatchPassword()
         {
@@ -101,7 +101,7 @@
         }
         // 5. Registration with Invalid email
         [Test, Property("Priority", 1)]
-        [Author("Author")]
+        [Author("Dimo Yanev")]
 
         public void RegistrateWithInvaalidEmail()
         {
