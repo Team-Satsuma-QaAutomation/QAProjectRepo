@@ -11,7 +11,7 @@
         static WebHost()
         {
            
-            Instance.Run("Blog", 60639, w => w.WithRemoteWebDriver(BrowserFactory.Chrome));
+            Instance.Run("Blog", 60639);
 
 
         }

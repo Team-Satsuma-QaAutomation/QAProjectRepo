@@ -102,6 +102,12 @@
   <ItemGroup>
     <Folder Include="Sections\RegistrationSection\" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\UI.tests\UI.tests.csproj">
+      <Project>{C07BF342-EACB-440E-81BD-A4FE9FFA2BA7}</Project>
+      <Name>UI.tests</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Import Project="..\packages\Selenium.WebDriver.ChromeDriver.2.29.0\build\Selenium.WebDriver.ChromeDriver.targets" Condition="Exists('..\packages\Selenium.WebDriver.ChromeDriver.2.29.0\build\Selenium.WebDriver.ChromeDriver.targets')" />
   <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">

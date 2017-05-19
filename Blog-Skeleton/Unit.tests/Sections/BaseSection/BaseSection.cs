@@ -4,6 +4,7 @@
     using OpenQA.Selenium.Support.UI;
     using System;
     using System.Configuration;
+    using UI.tests;
 
     public class BaseSection
     {
