@@ -76,5 +76,11 @@ D:\QA\QA-courseWork\QAProjectRepo\QAProjectRepo\Blog-Skeleton\Unit.tests\obj\x86
 D:\QA\QA-courseWork\QAProjectRepo\QAProjectRepo\Blog-Skeleton\Unit.tests\obj\x86\Debug\Unit.tests.pdb
 D:\QA\QA-courseWork\QAProjectRepo\QAProjectRepo\Blog-Skeleton\Unit.tests\bin\x86\Debug\UI.tests.dll
 D:\QA\QA-courseWork\QAProjectRepo\QAProjectRepo\Blog-Skeleton\Unit.tests\bin\x86\Debug\UI.tests.pdb
+<<<<<<< HEAD
 D:\QA\QA-courseWork\QAProjectRepo\QAProjectRepo\Blog-Skeleton\Unit.tests\bin\x86\Debug\System.Web.Mvc.dll
 D:\QA\QA-courseWork\QAProjectRepo\QAProjectRepo\Blog-Skeleton\Unit.tests\bin\x86\Debug\System.Web.Mvc.xml
+=======
+C:\Users\Valeri\Desktop\blog\QAProjectRepo\Blog-Skeleton\Unit.tests\bin\x86\Debug\UI.tests.dll
+C:\Users\Valeri\Desktop\blog\QAProjectRepo\Blog-Skeleton\Unit.tests\bin\x86\Debug\UI.tests.pdb
+C:\Users\Valeri\Desktop\blog\QAProjectRepo\Blog-Skeleton\Unit.tests\bin\x86\Debug\UI.tests.dll.config
+>>>>>>> 488381d794f49bc438cc0d07c5d2bad179cfc9ee

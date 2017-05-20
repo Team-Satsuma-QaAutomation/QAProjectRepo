@@ -11,6 +11,11 @@
 
         static WebHost()
         {
+<<<<<<< HEAD
+=======
+           
+            Instance.Run("Blog", 60634);
+>>>>>>> 488381d794f49bc438cc0d07c5d2bad179cfc9ee
 
             Instance.Run("Blog", 60639, w => w.WithRemoteWebDriver(() => new ChromeDriver()));
 
