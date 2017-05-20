@@ -101,8 +101,6 @@ namespace UI.tests
        
             regPage.NavigateTo();
             regPage.FillRegistrationFormAndCickRegisterBtn(user);
-
-
         }
     }   
 }
