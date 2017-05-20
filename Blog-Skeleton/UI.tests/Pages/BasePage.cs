@@ -14,7 +14,7 @@
         public BasePage(IWebDriver driver)
         {
             this.driver = driver;
-            this.wait = new WebDriverWait(this.driver, TimeSpan.FromSeconds(120));
+            this.wait = new WebDriverWait(this.driver, TimeSpan.FromSeconds(10));
         }
 
         public IWebDriver Driver

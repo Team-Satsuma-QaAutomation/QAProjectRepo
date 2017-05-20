@@ -10,7 +10,7 @@
     {
         public static string ConnectionForRegistrationUser()
         {
-            var path = AppDomain.CurrentDomain.BaseDirectory.Replace("bin\\Debug\\", string.Empty) + ConfigurationManager.AppSettings["TestDataSheetPath"];
+            var path = AppDomain.CurrentDomain.BaseDirectory.Replace("bin\\x86\\Debug\\", string.Empty) + ConfigurationManager.AppSettings["TestDataSheetPath"];
             var filename = "RegistrationUser.xlsx";
 
             var con = string.Format(@"Provider=Microsoft.ACE.OLEDB.12.0;
