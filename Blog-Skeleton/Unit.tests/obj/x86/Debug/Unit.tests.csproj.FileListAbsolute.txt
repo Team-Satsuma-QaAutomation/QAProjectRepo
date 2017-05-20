@@ -74,3 +74,22 @@ D:\QA\QA-courseWork\QAProjectRepo\QAProjectRepo\Blog-Skeleton\Unit.tests\bin\x86
 D:\QA\QA-courseWork\QAProjectRepo\QAProjectRepo\Blog-Skeleton\Unit.tests\obj\x86\Debug\Unit.tests.csprojResolveAssemblyReference.cache
 D:\QA\QA-courseWork\QAProjectRepo\QAProjectRepo\Blog-Skeleton\Unit.tests\obj\x86\Debug\Unit.tests.dll
 D:\QA\QA-courseWork\QAProjectRepo\QAProjectRepo\Blog-Skeleton\Unit.tests\obj\x86\Debug\Unit.tests.pdb
+C:\Users\Ivo\Documents\Visual Studio 2015\Projects\QAProjectRepo\Blog-Skeleton\Unit.tests\bin\x86\Debug\Unit.tests.dll.config
+C:\Users\Ivo\Documents\Visual Studio 2015\Projects\QAProjectRepo\Blog-Skeleton\Unit.tests\bin\x86\Debug\Unit.tests.dll
+C:\Users\Ivo\Documents\Visual Studio 2015\Projects\QAProjectRepo\Blog-Skeleton\Unit.tests\bin\x86\Debug\Unit.tests.pdb
+C:\Users\Ivo\Documents\Visual Studio 2015\Projects\QAProjectRepo\Blog-Skeleton\Unit.tests\bin\x86\Debug\Castle.Core.dll
+C:\Users\Ivo\Documents\Visual Studio 2015\Projects\QAProjectRepo\Blog-Skeleton\Unit.tests\bin\x86\Debug\Dapper.dll
+C:\Users\Ivo\Documents\Visual Studio 2015\Projects\QAProjectRepo\Blog-Skeleton\Unit.tests\bin\x86\Debug\nunit.framework.dll
+C:\Users\Ivo\Documents\Visual Studio 2015\Projects\QAProjectRepo\Blog-Skeleton\Unit.tests\bin\x86\Debug\TestStack.Seleno.dll
+C:\Users\Ivo\Documents\Visual Studio 2015\Projects\QAProjectRepo\Blog-Skeleton\Unit.tests\bin\x86\Debug\WebDriver.dll
+C:\Users\Ivo\Documents\Visual Studio 2015\Projects\QAProjectRepo\Blog-Skeleton\Unit.tests\bin\x86\Debug\WebDriver.Support.dll
+C:\Users\Ivo\Documents\Visual Studio 2015\Projects\QAProjectRepo\Blog-Skeleton\Unit.tests\bin\x86\Debug\Castle.Core.xml
+C:\Users\Ivo\Documents\Visual Studio 2015\Projects\QAProjectRepo\Blog-Skeleton\Unit.tests\bin\x86\Debug\Dapper.xml
+C:\Users\Ivo\Documents\Visual Studio 2015\Projects\QAProjectRepo\Blog-Skeleton\Unit.tests\bin\x86\Debug\nunit.framework.xml
+C:\Users\Ivo\Documents\Visual Studio 2015\Projects\QAProjectRepo\Blog-Skeleton\Unit.tests\bin\x86\Debug\TestStack.Seleno.pdb
+C:\Users\Ivo\Documents\Visual Studio 2015\Projects\QAProjectRepo\Blog-Skeleton\Unit.tests\bin\x86\Debug\TestStack.Seleno.xml
+C:\Users\Ivo\Documents\Visual Studio 2015\Projects\QAProjectRepo\Blog-Skeleton\Unit.tests\bin\x86\Debug\WebDriver.xml
+C:\Users\Ivo\Documents\Visual Studio 2015\Projects\QAProjectRepo\Blog-Skeleton\Unit.tests\bin\x86\Debug\WebDriver.Support.xml
+C:\Users\Ivo\Documents\Visual Studio 2015\Projects\QAProjectRepo\Blog-Skeleton\Unit.tests\obj\x86\Debug\Unit.tests.csprojResolveAssemblyReference.cache
+C:\Users\Ivo\Documents\Visual Studio 2015\Projects\QAProjectRepo\Blog-Skeleton\Unit.tests\obj\x86\Debug\Unit.tests.dll
+C:\Users\Ivo\Documents\Visual Studio 2015\Projects\QAProjectRepo\Blog-Skeleton\Unit.tests\obj\x86\Debug\Unit.tests.pdb
