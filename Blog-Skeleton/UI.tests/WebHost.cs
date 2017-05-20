@@ -1,7 +1,9 @@
-﻿namespace UI.tests
+﻿using OpenQA.Selenium.Chrome;
+using TestStack.Seleno.Configuration;
+
+namespace UI.tests
 {
-    using OpenQA.Selenium.Chrome;
-    using TestStack.Seleno.Configuration;
+    
 
     public static class WebHost
     {

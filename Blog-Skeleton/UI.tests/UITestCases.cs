@@ -8,6 +8,7 @@
     using UI.tests.Models;
     using UI.tests.Pages.RegistrationPage;
     using System;
+  
 
     [TestFixture]
     public class UITestCases
@@ -55,7 +56,7 @@
         [Test, Property("Priority", 1)]
         [Author("Dimo Yanev")]
 
-        public void RegistrateWithoutFullName()
+        public void RegisterWithoutFullName()
         {
             RegistrationPage regPage = new RegistrationPage(this.driver);
             var user = AccessExcelData.GetTestData("RegisterWithoutFullName");
@@ -70,7 +71,7 @@
         [Test, Property("Priority", 1)]
         [Author("Dimo Yanev")]
 
-        public void RegistrateWithoutPassword()
+        public void RegisterWithoutPassword()
         {
             RegistrationPage regPage = new RegistrationPage(this.driver);
             var user = AccessExcelData.GetTestData("RegisterWithoutPassword");
@@ -85,7 +86,7 @@
         [Test, Property("Priority", 1)]
         [Author("Dimo Yanev")]
 
-        public void RegistrateWithMismatchPassword()
+        public void RegisterWithMismatchPassword()
         {
             RegistrationPage regPage = new RegistrationPage(this.driver);
             var user = AccessExcelData.GetTestData("RegisterMIsmatchPassword");
