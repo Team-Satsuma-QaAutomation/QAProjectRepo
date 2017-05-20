@@ -11,7 +11,14 @@ namespace UI.tests.Pages.RegistrationPage
     public partial class RegistrationPage : BasePage
     {
         private string url = "http://localhost:60634/Account/Register";
-        public string uniqueEmail = Guid.NewGuid() + "@abv.bg";
+
+        public string UniqueEmail
+        {
+            get
+            {
+                return Guid.NewGuid() + "@abv.bg";
+            }
+        }
 
         public RegistrationPage(IWebDriver driver) : base(driver)
         {
@@ -24,7 +31,7 @@ namespace UI.tests.Pages.RegistrationPage
 
         public void FillRegistrationFormAndCickRegisterBtn(RegistrationUser user)
         {
-            Type(this.Email, this.uniqueEmail);
+            Type(this.Email, this.UniqueEmail);
             Type(this.FullName, user.FullName);
             Type(this.Password, user.Password);
             Type(this.ConfirmPassword, user.ConfirmPassword);

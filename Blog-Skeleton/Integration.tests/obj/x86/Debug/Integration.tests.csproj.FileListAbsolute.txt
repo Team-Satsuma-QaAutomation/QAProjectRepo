@@ -77,6 +77,7 @@ D:\QA\QA-courseWork\QAProjectRepo\QAProjectRepo\Blog-Skeleton\Integration.tests\
 D:\QA\QA-courseWork\QAProjectRepo\QAProjectRepo\Blog-Skeleton\Integration.tests\bin\x86\Debug\System.Web.WebPages.xml
 D:\QA\QA-courseWork\QAProjectRepo\QAProjectRepo\Blog-Skeleton\Integration.tests\bin\x86\Debug\System.Web.WebPages.Deployment.xml
 D:\QA\QA-courseWork\QAProjectRepo\QAProjectRepo\Blog-Skeleton\Integration.tests\bin\x86\Debug\System.Web.WebPages.Razor.xml
+<<<<<<< HEAD
 C:\Users\Ivo\Documents\Visual Studio 2015\Projects\QAProjectRepo\Blog-Skeleton\Integration.tests\bin\x86\Debug\geckodriver.exe
 C:\Users\Ivo\Documents\Visual Studio 2015\Projects\QAProjectRepo\Blog-Skeleton\Integration.tests\bin\x86\Debug\Integration.tests.dll.config
 C:\Users\Ivo\Documents\Visual Studio 2015\Projects\QAProjectRepo\Blog-Skeleton\Integration.tests\bin\x86\Debug\Integration.tests.dll
@@ -108,3 +109,20 @@ C:\Users\Ivo\Documents\Visual Studio 2015\Projects\QAProjectRepo\Blog-Skeleton\I
 C:\Users\Ivo\Documents\Visual Studio 2015\Projects\QAProjectRepo\Blog-Skeleton\Integration.tests\obj\x86\Debug\Integration.tests.csprojResolveAssemblyReference.cache
 C:\Users\Ivo\Documents\Visual Studio 2015\Projects\QAProjectRepo\Blog-Skeleton\Integration.tests\obj\x86\Debug\Integration.tests.dll
 C:\Users\Ivo\Documents\Visual Studio 2015\Projects\QAProjectRepo\Blog-Skeleton\Integration.tests\obj\x86\Debug\Integration.tests.pdb
+=======
+C:\Users\Valeri\Desktop\blog\QAProjectRepo\Blog-Skeleton\Integration.tests\bin\x86\Debug\geckodriver.exe
+C:\Users\Valeri\Desktop\blog\QAProjectRepo\Blog-Skeleton\Integration.tests\bin\x86\Debug\Integration.tests.dll.config
+C:\Users\Valeri\Desktop\blog\QAProjectRepo\Blog-Skeleton\Integration.tests\bin\x86\Debug\Microsoft.Web.Infrastructure.dll
+C:\Users\Valeri\Desktop\blog\QAProjectRepo\Blog-Skeleton\Integration.tests\bin\x86\Debug\System.Web.Helpers.dll
+C:\Users\Valeri\Desktop\blog\QAProjectRepo\Blog-Skeleton\Integration.tests\bin\x86\Debug\System.Web.Mvc.dll
+C:\Users\Valeri\Desktop\blog\QAProjectRepo\Blog-Skeleton\Integration.tests\bin\x86\Debug\System.Web.Razor.dll
+C:\Users\Valeri\Desktop\blog\QAProjectRepo\Blog-Skeleton\Integration.tests\bin\x86\Debug\System.Web.WebPages.Deployment.dll
+C:\Users\Valeri\Desktop\blog\QAProjectRepo\Blog-Skeleton\Integration.tests\bin\x86\Debug\System.Web.WebPages.dll
+C:\Users\Valeri\Desktop\blog\QAProjectRepo\Blog-Skeleton\Integration.tests\bin\x86\Debug\System.Web.WebPages.Razor.dll
+C:\Users\Valeri\Desktop\blog\QAProjectRepo\Blog-Skeleton\Integration.tests\bin\x86\Debug\System.Web.Helpers.xml
+C:\Users\Valeri\Desktop\blog\QAProjectRepo\Blog-Skeleton\Integration.tests\bin\x86\Debug\System.Web.Mvc.xml
+C:\Users\Valeri\Desktop\blog\QAProjectRepo\Blog-Skeleton\Integration.tests\bin\x86\Debug\System.Web.Razor.xml
+C:\Users\Valeri\Desktop\blog\QAProjectRepo\Blog-Skeleton\Integration.tests\bin\x86\Debug\System.Web.WebPages.xml
+C:\Users\Valeri\Desktop\blog\QAProjectRepo\Blog-Skeleton\Integration.tests\bin\x86\Debug\System.Web.WebPages.Deployment.xml
+C:\Users\Valeri\Desktop\blog\QAProjectRepo\Blog-Skeleton\Integration.tests\bin\x86\Debug\System.Web.WebPages.Razor.xml
+>>>>>>> origin/master

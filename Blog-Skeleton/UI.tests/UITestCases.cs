@@ -20,7 +20,7 @@ namespace UI.tests
         [SetUp]
         public void Init()
         {
-            this.driver = new ChromeDriver();
+            this.driver = WebHost.Instance.Application.Browser;
             this.driver.Manage().Window.Maximize();
         }
 

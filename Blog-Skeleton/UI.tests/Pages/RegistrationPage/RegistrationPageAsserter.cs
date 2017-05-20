@@ -24,7 +24,7 @@ namespace UI.tests.Pages.RegistrationPage
         public static void AssertMenageBtnMsgExist(this RegistrationPage regPage)
         {
             Assert.IsTrue(regPage.MenageBtn.Displayed);
-            Assert.AreEqual("Hello " + regPage.uniqueEmail + "!", regPage.MenageBtn.Text);
+            Assert.AreEqual("Hello " + regPage.UniqueEmail + "!", regPage.MenageBtn.Text);
         }
     }
 }
