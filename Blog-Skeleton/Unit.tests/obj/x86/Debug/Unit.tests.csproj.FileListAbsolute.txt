@@ -76,3 +76,5 @@ D:\QA\QA-courseWork\QAProjectRepo\QAProjectRepo\Blog-Skeleton\Unit.tests\obj\x86
 D:\QA\QA-courseWork\QAProjectRepo\QAProjectRepo\Blog-Skeleton\Unit.tests\obj\x86\Debug\Unit.tests.pdb
 D:\QA\QA-courseWork\QAProjectRepo\QAProjectRepo\Blog-Skeleton\Unit.tests\bin\x86\Debug\UI.tests.dll
 D:\QA\QA-courseWork\QAProjectRepo\QAProjectRepo\Blog-Skeleton\Unit.tests\bin\x86\Debug\UI.tests.pdb
+D:\QA\QA-courseWork\QAProjectRepo\QAProjectRepo\Blog-Skeleton\Unit.tests\bin\x86\Debug\System.Web.Mvc.dll
+D:\QA\QA-courseWork\QAProjectRepo\QAProjectRepo\Blog-Skeleton\Unit.tests\bin\x86\Debug\System.Web.Mvc.xml

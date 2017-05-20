@@ -9,6 +9,7 @@
     using NUnit.Framework.Interfaces;
     using System;
     using Sections;
+    using UI.tests;
 
     [TestFixture]
     public class RegistrationSectionTests
@@ -18,7 +19,9 @@
         [SetUp]
         public void Init()
         {
-            this.driver = new ChromeDriver();
+            
+           
+            this.driver = WebHost.Instance.Application.Browser;
             this.driver.Manage().Window.Maximize();
 
         }
@@ -81,7 +84,7 @@
             registrationsection.FillRegistrationForm(user);
             registrationsection.AssertMissingPasswordMessage("The Password field is required.");
         }
-        
+
         // 4. Registration with Mismatch pasword
         [Test, Property("Priority", 1)]
         [Author("Dimo Yanev")]
