@@ -1,13 +1,8 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using OpenQA.Selenium;
-using OpenQA.Selenium.Support.UI;
-
-namespace UI.tests.Pages.RegistrationPage
+﻿namespace UI.tests.Pages.RegistrationPage
 {
+    using OpenQA.Selenium;
+    using OpenQA.Selenium.Support.UI;
+
     public partial class RegistrationPage
     {
         public IWebElement Email
@@ -36,6 +31,22 @@ namespace UI.tests.Pages.RegistrationPage
         }
 
         public IWebElement ErrorMsgForEmail
+        {
+            get
+            {
+                this.Wait.Until(ExpectedConditions.ElementExists(By.XPath("/html/body/div[2]/div/div/form/div[1]/ul/li")));
+                return this.Driver.FindElement(By.XPath("/html/body/div[2]/div/div/form/div[1]/ul/li"));
+            }
+        }
+        public IWebElement ErrorMsgForFullName
+        {
+            get
+            {
+                this.Wait.Until(ExpectedConditions.ElementExists(By.XPath("/html/body/div[2]/div/div/form/div[1]/ul/li")));
+                return this.Driver.FindElement(By.XPath("/html/body/div[2]/div/div/form/div[1]/ul/li"));
+            }
+        }
+        public IWebElement ErrorMsgForPassword
         {
             get
             {

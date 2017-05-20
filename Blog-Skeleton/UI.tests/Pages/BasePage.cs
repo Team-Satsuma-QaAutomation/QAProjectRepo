@@ -1,19 +1,15 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using OpenQA.Selenium;
-using OpenQA.Selenium.Support.UI;
-using System.Configuration;
-
-namespace UI.tests.Pages
+﻿namespace UI.tests.Pages
 {
+    using System;
+    using OpenQA.Selenium;
+    using OpenQA.Selenium.Support.UI;
+    using System.Configuration;
+
     public class BasePage
     {
         protected string url = ConfigurationManager.AppSettings["URL"];
         private IWebDriver driver;
-        private WebDriverWait wait;  
+        private WebDriverWait wait;
 
         public BasePage(IWebDriver driver)
         {

@@ -1,19 +1,16 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Configuration;
-using System.Data.OleDb;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using Dapper;
-
-namespace UI.tests.Models
+﻿namespace UI.tests.Models
 {
+    using System;
+    using System.Configuration;
+    using System.Data.OleDb;
+    using System.Linq;
+    using Dapper;
+
     public class AccessExcelData
     {
         public static string ConnectionForRegistrationUser()
         {
-            var path = AppDomain.CurrentDomain.BaseDirectory.Replace("bin\\x86\\Debug\\", string.Empty) + ConfigurationManager.AppSettings["TestDataSheetPath"];
+            var path = AppDomain.CurrentDomain.BaseDirectory.Replace("bin\\Debug\\", string.Empty) + ConfigurationManager.AppSettings["TestDataSheetPath"];
             var filename = "RegistrationUser.xlsx";
 
             var con = string.Format(@"Provider=Microsoft.ACE.OLEDB.12.0;

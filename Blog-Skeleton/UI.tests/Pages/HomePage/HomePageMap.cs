@@ -1,10 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace UI.tests.Pages.HomePage
+﻿namespace UI.tests.Pages.HomePage
 {
     public partial class HomePage
     {

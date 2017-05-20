@@ -1,13 +1,9 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using OpenQA.Selenium;
-using UI.tests.Models;
-
-namespace UI.tests.Pages.RegistrationPage
+﻿namespace UI.tests.Pages.RegistrationPage
 {
+    using System;
+    using OpenQA.Selenium;
+    using UI.tests.Models;
+
     public partial class RegistrationPage : BasePage
     {
         private string url = "http://localhost:60634/Account/Register";
@@ -49,8 +45,15 @@ namespace UI.tests.Pages.RegistrationPage
 
         private void Type(IWebElement element, string text)
         {
-            element.Clear();
-            element.SendKeys(text);
+            if (text == null)
+            {
+                element.SendKeys(string.Empty);
+            }
+            else
+            {
+                element.Clear();
+                element.SendKeys(text);
+            }
         }
     }
 }
