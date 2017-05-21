@@ -8,7 +8,7 @@
     using UI.tests.Models;
     using UI.tests.Pages.RegistrationPage;
     using System;
-  
+    using Pages.LoginPage;
 
     [TestFixture]
     public class UITestCases
@@ -108,7 +108,17 @@
             regPage.NavigateTo();
             regPage.FillRegistrationFormAndCickRegisterBtn(user);
         }
-
+        // 8. Login with existing user
+        [Test, Property("Priority", 1)]
+        [Author("Todor Todorov")]
+        public void LoginWithExistingUser()
+        {
+            LoginPage logPage = new LoginPage(this.driver);
+            var existinguser = AccessExcelDataLoginUser.GetTestData("LoginWithExistingUser");
+            logPage.NavigateTo();
+            logPage.FillLoginForm_AndClickLoginBtn_DataDriven(existinguser);
+            logPage.AssertLoginWithExistingUser();
+        }
         [TearDown]
         public void CleanUp()
         {
