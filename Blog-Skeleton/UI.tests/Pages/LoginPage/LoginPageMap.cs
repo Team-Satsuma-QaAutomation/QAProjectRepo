@@ -31,5 +31,17 @@ namespace UI.tests.Pages.LoginPage
         {
             get { return this.Driver.FindElement(By.XPath("//*[@id=\"logoutForm\"]/ul/li[2]/a")); }
         }
+        public IWebElement PasswordFieldRequiredMessage
+        {
+            get { return this.Driver.FindElement(By.XPath("/html/body/div[2]/div/div/form/div[2]/div/span/span")); }
+        }
+        public IWebElement EmailFieldRequiredMessage
+        {
+            get { return this.Driver.FindElement(By.XPath("/html/body/div[2]/div/div/form/div[1]/div/span/span")); }
+        }
+        public IWebElement WrongPasswordMessage
+        {
+            get { return this.Driver.FindElement(By.XPath("/html/body/div[2]/div/div/form/div[1]/ul/li")); }
+        }
     }
 }

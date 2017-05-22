@@ -119,6 +119,42 @@
             logPage.FillLoginForm_AndClickLoginBtn_DataDriven(existinguser);
             logPage.AssertLoginWithExistingUser();
         }
+
+
+        // 9. Press Login withouting Email and Password
+        [Test, Property("Priority", 1)]
+        [Author("Todor Todorov")]
+        public void LoginWithoutUserAndPassword()
+        {
+            LoginPage logPage = new LoginPage(this.driver);
+            var existinguser = AccessExcelDataLoginUser.GetTestData("LoginWithoutEmailAndPassword");
+            logPage.NavigateTo();
+            logPage.FillLoginForm_AndClickLoginBtn_DataDriven(existinguser);
+            logPage.AssertLoginEmailAndPasswordIsRequired();
+
+        }
+        // 10. Login with existing user but without password
+        [Test, Property("Priority", 1)]
+        [Author("Todor Todorov")]
+        public void LoginWithoutPassword()
+        {
+            LoginPage logPage = new LoginPage(this.driver);
+            var existinguser = AccessExcelDataLoginUser.GetTestData("LoginWithoutPassword");
+            logPage.NavigateTo();
+            logPage.FillLoginForm_AndClickLoginBtn_DataDriven(existinguser);
+            logPage.AssertLoginPasswordIsRequired();
+        }
+        // 11. Login with existing user but with wrong password
+        [Test, Property("Priority", 1)]
+        [Author("Todor Todorov")]
+        public void LoginWithExistingUserButWrongPassword()
+        {
+            LoginPage logPage = new LoginPage(this.driver);
+            var existinguser = AccessExcelDataLoginUser.GetTestData("LoginWithExistingUserButWrongPassword");
+            logPage.NavigateTo();
+            logPage.FillLoginForm_AndClickLoginBtn_DataDriven(existinguser);
+            logPage.AssertLoginWithWrongPassword();
+        }
         [TearDown]
         public void CleanUp()
         {
