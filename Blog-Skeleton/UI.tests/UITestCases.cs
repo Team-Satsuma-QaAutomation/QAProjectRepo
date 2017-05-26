@@ -155,6 +155,19 @@
             logPage.FillLoginForm_AndClickLoginBtn_DataDriven(existinguser);
             logPage.AssertLoginWithWrongPassword();
         }
+
+        // 12. Login with nonexisting user but with valid password
+        [Test, Property("Priority", 2)]
+        [Author("Ivo Igov")]
+        public void LoginWithNonExistingUserButValidPassword()
+        {
+            LoginPage logPage = new LoginPage(this.driver);
+            var existinguser = AccessExcelDataLoginUser.GetTestData("LoginWithNonExistingUserButValidPassword");
+            logPage.NavigateTo();
+            logPage.FillLoginForm_AndClickLoginBtn_DataDriven(existinguser);
+            logPage.AssertLoginWithWrongPassword();
+        }
+
         [TearDown]
         public void CleanUp()
         {
