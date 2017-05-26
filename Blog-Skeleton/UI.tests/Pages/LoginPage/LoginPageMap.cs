@@ -43,5 +43,10 @@ namespace UI.tests.Pages.LoginPage
         {
             get { return this.Driver.FindElement(By.XPath("/html/body/div[2]/div/div/form/div[1]/ul/li")); }
         }
+
+        public IWebElement InvalidEmailMessage
+        {
+            get { return this.Driver.FindElement(By.XPath("/html/body/div[2]/div/div/form/div[1]/div/span/span")); }
+        }
     }
 }

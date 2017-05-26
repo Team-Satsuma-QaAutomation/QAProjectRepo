@@ -26,5 +26,10 @@ namespace UI.tests.Pages.LoginPage
         {
             Assert.AreEqual("Invalid login attempt.", logPage.WrongPasswordMessage.Text);
         }
+
+        public static void AssertInvalidEmailMessage(this LoginPage logPage)
+        {
+            Assert.AreEqual("The Email field is not a valid e-mail address.", logPage.InvalidEmailMessage.Text);
+        }
     }
 }

@@ -168,6 +168,31 @@
             logPage.AssertLoginWithWrongPassword();
         }
 
+        // 13. Login with invalid email
+        [Test, Property("Priority", 2)]
+        [Author("Ivo Igov")]
+        public void LoginWithInvalidEmail()
+        {
+            LoginPage logPage = new LoginPage(this.driver);
+            var existinguser = AccessExcelDataLoginUser.GetTestData("LoginWithInvalidEmail");
+            logPage.NavigateTo();
+            logPage.FillLoginForm_AndClickLoginBtn_DataDriven(existinguser);
+            logPage.AssertInvalidEmailMessage();            
+        }
+
+        // 14. Login with random numbers as email and password
+        [Test, Property("Priority", 1)]
+        [Author("Ivo Igov")]
+        public void LoginWithRandomNumbersAsEmailAndPassword()
+        {
+            LoginPage logPage = new LoginPage(this.driver);
+            var existinguser = AccessExcelDataLoginUser.GetTestData("LoginWithRandomNumbersAsEmailAndPassword");
+            logPage.NavigateTo();
+            logPage.FillLoginForm_AndClickLoginBtn_DataDriven(existinguser);
+            logPage.AssertInvalidEmailMessage();         
+        }
+
+
         [TearDown]
         public void CleanUp()
         {
