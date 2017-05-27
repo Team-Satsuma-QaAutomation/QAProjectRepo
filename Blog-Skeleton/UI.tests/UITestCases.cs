@@ -177,7 +177,7 @@
             var existinguser = AccessExcelDataLoginUser.GetTestData("LoginWithInvalidEmail");
             logPage.NavigateTo();
             logPage.FillLoginForm_AndClickLoginBtn_DataDriven(existinguser);
-            logPage.AssertInvalidEmailMessage();            
+            logPage.AssertInvalidEmailMessage(); 
         }
 
         // 14. Login with random numbers as email and password

@@ -12,13 +12,12 @@
         {
             var path = AppDomain.CurrentDomain.BaseDirectory.Replace("bin\\x86\\Debug\\", string.Empty) + ConfigurationManager.AppSettings["TestDataSheetPath"];
             var filename = "RegistrationUser.xlsx";
-
+        
             var con = string.Format(@"Provider=Microsoft.ACE.OLEDB.12.0;
 		                              Data Source = {0}; 
 		                              Extended Properties=Excel 12.0;", path + filename);
             return con;
         }
-
         public static RegistrationUser GetTestData(string keyName)
         {
             using (var connection = new OleDbConnection(ConnectionForRegistrationUser()))
