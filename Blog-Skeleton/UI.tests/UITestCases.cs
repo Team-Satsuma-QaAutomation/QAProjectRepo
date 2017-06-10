@@ -181,7 +181,7 @@
         }
 
         // 14. Login with random numbers as email and password
-        [Test, Property("Priority", 1)]
+       /* [Test, Property("Priority", 1)]
         [Author("Ivo Igov")]
         public void LoginWithRandomNumbersAsEmailAndPassword()
         {
@@ -190,7 +190,7 @@
             logPage.NavigateTo();
             logPage.FillLoginForm_AndClickLoginBtn_DataDriven(existinguser);
             logPage.AssertInvalidEmailMessage();         
-        }
+        }*/
 
 
         [TearDown]
